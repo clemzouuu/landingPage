@@ -34,14 +34,21 @@ const Portfolio = () => {
       title: 'Météo',
       imageSrc:process.env.PUBLIC_URL + "/img/meteo.png",
       description: 'Application affichant les prévisions météorologiques via une API',
-      link: 'https://github.com/clemzouuu/App-meteo',
-      githubLink:""
+      link: 'https://clemi.zapto.org/meteo',
+      githubLink:"https://github.com/clemzouuu/App-meteo"
+    }, 
+    {
+      title: 'Piano',
+      imageSrc:process.env.PUBLIC_URL + "/img/piano.png",
+      description: 'Projet permettant de jouer du piano',
+      link: 'https://clemi.zapto.org/piano',
+      githubLink:"https://github.com/clemzouuu/Piano"
     }, 
     {
       title: 'Client Side Dungeon Crawler',
       imageSrc:process.env.PUBLIC_URL + "img/dungeon.png",
       description: 'Dungeon Crawler sur navigateur',
-      link: 'https://lien-du-projet-2.com',
+      link: 'https://clemi.zapto.org/dungeon',
       githubLink:"https://github.com/clemzouuu/Dungeon-Crawler"
     }, 
     {

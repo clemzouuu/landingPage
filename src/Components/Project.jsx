@@ -21,7 +21,7 @@ const Project = ({ title, description, imageSrc, link, githubLink }) => {
       </span>
         }
         
-      <a href={githubLink} target="_blank" rel="noopener noreferrer" className='githublink'>Lien du repo Github</a>
+      <a href={githubLink} target="_blank" className='githublink'>Lien du repo Github</a>
     </div>
   );
 };
