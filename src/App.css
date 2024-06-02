@@ -1,0 +1,92 @@
+
+body {
+  font-family: 'Nunito Sans', sans-serif;
+  margin: 0;
+  background-color: #2e3233;
+}
+
+h1 a{
+  color: white;
+  text-decoration: none;
+}
+
+.App {
+  text-align: center;
+  font-family: "Nunito Sans", sans-serif;
+  overflow: hidden;
+}
+
+header {
+  margin-bottom: 20px;
+}
+
+.githublink{
+  text-decoration: underline !important;
+  color:red !important;
+  font-weight: bolder;
+}
+
+.portfolio {
+  padding: 20px;
+}
+
+.horizontal-scroll-container {
+  display: flex;
+  overflow-x: auto; 
+  white-space: nowrap;  
+}
+
+.projects {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  align-items: center;
+}
+
+.images {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  max-height: 300px;
+  border-radius: 8px;
+  margin-bottom: 8px;
+}
+
+.project {
+  background-color: white;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 16px;
+  margin: 16px;
+  width: 400px;
+  box-sizing: border-box;  
+  text-align: left;
+  transition: transform 0.2s;
+  white-space: normal;  
+}
+
+.project h2 {
+  margin-top: 0;
+}
+
+.project p {
+  word-wrap: break-word;  
+  white-space: normal; 
+}
+
+.project a {
+  color: black;
+  text-decoration: none;
+}
+
+.project:hover {
+  transform: scale(1.05);
+}
+
+
+.project .project-links {
+  display: flex;
+  justify-content: space-between;
+}
+ 
