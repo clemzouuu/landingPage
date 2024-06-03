@@ -11,12 +11,6 @@ const Portfolio = () => {
       githubLink:"https://github.com/clemzouuu/react-meme-generator",
     },
     {
-      title: 'Pokedex', 
-      imageSrc:process.env.PUBLIC_URL + "/img/pokemon.png",
-      link: 'https://clemi.zapto.org/pokedex',
-      githubLink:"https://github.com/clemzouuu/React-pokedex"
-    }, 
-    {
       title: "Jojo's Bizarre Adventure",
       imageSrc:process.env.PUBLIC_URL + "/img/jjba.png",
       description: 'Page statique permettant de voir et entendre certains personnages de JJBA',
@@ -50,6 +44,11 @@ const Portfolio = () => {
       description: 'Dungeon Crawler sur navigateur',
       link: 'https://clemi.zapto.org/dungeon',
       githubLink:"https://github.com/clemzouuu/Dungeon-Crawler"
+    }, 
+    {
+      title: 'Pokedex', 
+      imageSrc:process.env.PUBLIC_URL + "/img/pokemon.png",
+      githubLink:"https://github.com/clemzouuu/React-pokedex"
     }, 
     {
       title: 'Doomsday',
